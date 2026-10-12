@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+    header {
+      background: #1f3a5f;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { max-width: 36rem; margin: 0 auto 1.5rem; }
+    .btn {
+      display: inline-block;
+      background: #1f3a5f;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    section { max-width: 40rem; margin: 0 auto; padding: 2rem 1rem; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <strong>My Website</strong>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>Welcome to my site</h1>
+    <p>A simple starting point for your own web page. Edit the text and styles to make it yours.</p>
+    <a class="btn" href="#contact">Get in touch</a>
+  </div>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Write a few sentences about yourself, your business, or your project here.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+  </section>
+
+  <footer>&copy; 2026 My Website</footer>
+
+</body>
+</html>
